@@ -20,4 +20,6 @@ All codes are developed with PyTorch, focusing on understanding network principl
 
 ## Environment
 ```bash
+conda create -n DpLearning python==3.10
+conda activate Dplearning
 pip install torch torchvision numpy
