@@ -1,28 +1,23 @@
 # Deep-Learning-Reproduction
 
-## Introduction
-This repository records my personal reproduction and hands-on implementation of classic deep learning and computer vision models based on PyTorch.
+## Overview
+This repository contains personal re-implementation and reproduction of classic deep learning and computer vision models.
 
-The main purpose of this project is to consolidate the underlying network design logic, familiarize myself with the complete model building, training and inference process, and make up for the ability of independent network construction.
+All codes are developed with PyTorch, focusing on understanding network principles and practicing model construction from scratch.
 
-## Main Content
-- Classic CNN series model reproduction
-- Lightweight network & attention mechanism implementation
-- Transformer / ViT basic visual model practice
-- Standard training loop, data loading, evaluation and inference code
-- Detailed code comments and experimental records
+## Purpose
+- Build neural networks manually to consolidate basic coding skills
+- Get familiar with the complete training, validation and inference pipeline
+- Learn classic CNN, attention and Transformer-based vision models
+- Lay a solid foundation for future large model research and engineering projects
 
-## Tech Stack
-- Framework: PyTorch
-- Language: Python
-- Scene: Image Classification, Visual Feature Extraction
+## Repository Content
+- Classic CNN model reproduction
+- Implementation of common attention mechanisms
+- Simple ViT / Transformer visual network practice
+- Universal training loops, data loading and evaluation scripts
+- Standardized code structure with detailed comments
 
-## Project Features
-- All models are handwritten and streamlined, easy to understand
-- Unified code structure, convenient secondary modification and expansion
-- Suitable for personal learning, ability accumulation and subsequent research expansion
-
-## Quick Start
-### Environment
+## Environment
 ```bash
 pip install torch torchvision numpy
