@@ -47,4 +47,14 @@ cd /mnt/vde/FW/code/P2PFormer
 class WhuDataset(CocoDataset):
     CLASSES = ('building', )  # 旧数据集
     # 新数据集标注中的类别是 'Farmland' → 全部标注被丢弃
-[ACPV-Net]
+```
+## [ACPV-Net](https://github.com/HeinzJiao/ACPV-Net)
+### CUDA环境以及路径
+```python
+export PATH=/usr/local/cuda-12.4/bin:$PATH && export LD_LIBRARY_PATH=/usr/local/cuda-12.4/lib64:$LD_LIBRARY_PATH
+conda activate /mnt/vde/FW/envs/ACPV
+cd /mnt/vde/FW/code/ACPV-Net
+```
+<details>
+
+
