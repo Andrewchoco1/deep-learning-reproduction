@@ -16,6 +16,14 @@ All codes are developed with PyTorch, focusing on understanding network principl
 <details>
 <summary>🔧 : "模型不训练，直接进入验证集" 问题排查</summary>
 
+### CUDA环境以及路径
+```python
+export PATH=/usr/local/cuda-11.7/bin:$PATH
+export LD_LIBRARY_PATH=/usr/local/cuda-11.7/lib64:$LD_LIBRARY_PATH
+
+conda activate /mnt/vde/FW/envs/p2pformer
+cd /mnt/vde/FW/code/P2PFormer
+```
 ### 现象
 更换数据集路径后，模型跳过训练直接进入验证阶段，但两个数据集格式完全一致。
 
