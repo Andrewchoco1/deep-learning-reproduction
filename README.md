@@ -48,6 +48,8 @@ class WhuDataset(CocoDataset):
     CLASSES = ('building', )  # 旧数据集
     # 新数据集标注中的类别是 'Farmland' → 全部标注被丢弃
 ```
+</details>
+
 ## [ACPV-Net](https://github.com/HeinzJiao/ACPV-Net)
 ### CUDA环境以及路径
 ```python
@@ -56,5 +58,5 @@ conda activate /mnt/vde/FW/envs/ACPV
 cd /mnt/vde/FW/code/ACPV-Net
 ```
 <details>
-
+</details>
 
