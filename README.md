@@ -53,7 +53,9 @@ class WhuDataset(CocoDataset):
 ## [ACPV-Net](https://github.com/HeinzJiao/ACPV-Net)
 ### CUDA环境以及路径
 ```python
-export PATH=/usr/local/cuda-12.4/bin:$PATH && export LD_LIBRARY_PATH=/usr/local/cuda-12.4/lib64:$LD_LIBRARY_PATH
+export PATH=/usr/local/cuda-12.4/bin:$PATH 
+export LD_LIBRARY_PATH=/usr/local/cuda-12.4/lib64:$LD_LIBRARY_PATH
+
 conda activate /mnt/vde/FW/envs/ACPV
 cd /mnt/vde/FW/code/ACPV-Net
 ```
